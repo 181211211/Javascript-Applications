@@ -147,12 +147,12 @@ class Game {
 
             const message = document.getElementById('game-over-message');
             if (gameWon) {
-                message.textContent = "Felicitari, ai câștigat!";
+                message.textContent = "Congratulations, you won";
                 overlay.classList.remove('start');
                 overlay.classList.remove('lose');
                 overlay.classList.add('win');
             } else {
-                message.textContent = "Azi nu ai avut noroc la vânătoare!";
+                message.textContent = "Unlucky, today was not you're lucky day";
                 overlay.classList.remove('start');
                 overlay.classList.remove('win');
                 overlay.classList.add('lose');
